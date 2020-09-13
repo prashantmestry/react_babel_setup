@@ -1,0 +1,47 @@
+{
+  "name": "react_babel_setup",
+  "version": "1.0.0",
+  "description": "just to learn babel setup and add my work",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Mestry/react_babel_setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Mestry/react_babel_setup/issues"
+  },
+  "homepage": "https://gitlab.com/Mestry/react_babel_setup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "chart.js": "^2.9.3",
+    "css-loader": "^4.2.2",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "react-router-dom": "^5.2.0",
+    "react-sortable-tree": "^2.8.0",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "antd": "^4.6.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.0"
+  }
+}
